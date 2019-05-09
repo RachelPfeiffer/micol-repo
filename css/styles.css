@@ -1,0 +1,237 @@
+img {
+  max-width: 100%;
+  }
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+
+.nav-link {
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 3px black;
+}
+
+.section {
+  /* pad sections on top so when you scroll to them the header doesn't cover */
+  padding-top: 130px;
+}
+
+#topsection {
+  margin-top: -130px;
+}
+
+#donate {
+  padding-top: 130px;
+}
+
+.orange {
+  background-color: #FF9500;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+
+.yellow {
+  background-color: yellow;
+}
+
+
+.purple {
+  background-color: purple;
+}
+
+
+.green {
+  background-color: green;
+}
+
+div#topsection.container-fluid {
+  margin-top: 10em;
+}
+
+/* notebook paper styles */
+
+#notebook-paper {
+  width:100%;
+  height:auto;
+  background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
+  background-size: 100% 30px;
+  position:relative;
+  padding-top:100px;
+  padding-left:80px;
+  padding-right:20px;
+  overflow:hidden;
+  border-radius:5px;
+  font-family: 'Gochi Hand', cursive;
+  -webkit-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -moz-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -ms-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  -o-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
+  }
+
+  #notebook-paper:before {
+    content:'';
+    display:block;
+    position:absolute;
+    z-index:1;
+    top:0;
+    left:70px;
+    height:100%;
+    width:1px;
+    background:#db4034;
+  }
+  #notebook-paper h5 {
+    width:100%;
+    background:white;
+    position:absolute;
+    top:0;
+    left:0;
+    padding:90px 0 0 80px;
+    font-size: 24px;
+    }
+
+  #content {
+    margin-top: 30px;
+    font-size:20px;
+    line-height:30px;
+    padding-left: 0;
+  }
+  #content p {
+    margin:0 0 30px 0;
+  }
+
+/* slider styles */
+.slider.wrapper {
+  margin: auto;
+}
+
+ul .rslides.rslides1 {
+  width: fit-content;
+  margin: auto;
+  max-width: 800px;
+  max-height: 350px;
+  display: block;
+  overflow: hidden;
+}
+
+.rslides.rslides1 img {
+  max-height: 60%;
+}
+
+.rslides li {
+  width: auto;
+}
+
+.service {
+  background-color: yellow;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: #FF9500;
+  font-size: 30px;
+}
+
+.services {
+  text-align: center;
+  color: yellow;
+}
+
+.donate.btn {
+  color: white;
+  text-transform: uppercase;
+  background-color: #dd163a;
+  height: 55px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid yellow;
+}
+
+.donate.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 2px 5px yellow;
+}
+
+.jumbotron.about {
+  background-color: pink;
+}
+
+/* Owl styles */
+.owl-container {
+  padding: 1em 0;
+  background-color: yellow;
+}
+
+/* Mission statement styles */
+.mission h5 {
+  line-height: 2em;
+}
+.mission img {
+  display: block;
+  margin: auto;
+}
+
+.heading {
+  color: white;
+  text-shadow: 1px 2px 5px black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* staff styles */
+.flex1 {
+  width: 33%;
+}
+
+.staff ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.staff li {
+  margin-bottom: 1.1em;
+}
+
+.staff h4 {
+  text-shadow: 1px 2px 5px;
+  margin-bottom: 0.5em;
+}
+
+/* donate section */
+
+.translucent {
+  background-color: rgba(1,1,1,0.5);
+  padding: 2em 0;
+}
+
+.donate.container {
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.far, .fa-phone {
+  font-size: 2em;
+}
